@@ -1,2 +1,7 @@
-h1 {color: red}
-p {front-size:80px}
+h1 {
+    color: red;
+}
+
+p {
+    font-size: 30px;
+}

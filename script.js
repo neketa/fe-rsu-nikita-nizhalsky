@@ -1,4 +1,7 @@
-var name="Nikita", last_name="Nizhalsky", age="18";
+var name="Nikita";
+var lastName="Nizhalsky";
+var age="23";
+
 alert (name);
-alert (last_name);
+alert (lastName);
 alert (age);
