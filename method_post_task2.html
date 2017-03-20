@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="http://httpbin.org/">
+        <h1>Registration form</h1>
+
+    <form action="http://httpbin.org/get" method="post" name="Personal data">
+        <fieldset>
+            <legend>Personal data</legend>
+            <table>
+                <tr>
+                    <td>First name</td>
+                    <td><input type="text" name="First name" required/></td>
+                </tr>
+                <tr>
+                    <td>Surname</td>
+                    <td><input type="text" name="Surname" required/></td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Sex</td>
+                    <td><input type="radio" name="Sex" value="male" checked />Male</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="Sex" value="female" />Female</td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact information</legend>
+            <table>
+                <tr>
+                    <td>Site</td>
+                    <td><input type="url" name="Site" /></td>
+                </tr>
+                <tr>
+                    <td>E-mail</td>
+                    <td><input type="email" name="Email" required/></td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td><input type="tel" name="Phone" required/></td>
+                </tr>
+            </table>
+        </fieldset>
+        <p><input type="submit" title="Отправить" /></p>
+</form>
+    </form>
+</body>
+</html>
