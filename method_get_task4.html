@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    </head>
+    <body>
+        <h1>Task 4</h1>
+        <form action="http://httpbin.org/" method="get" name="Personal data">
+            <fieldset>
+                <legend>Personal data</legend>
+                <table>
+                    <tr> 
+                        <td> First name </td>
+                        <td> <input type="text" name="First name" required /> </td>
+                    </tr>
+                    <tr>
+                        <td>Middle name </td>
+                        <td><input type="text" name="Middle name"/></td>
+                    </tr>
+                    <tr>
+                        <td>Surname</td>
+                        <td> <input type="text" name="Surname" required /> </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Sex</td>
+                        <td><input type="radio" name="Sex" value="male" checked />Male</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="Sex" value="female" />Female</td>
+                    </tr>
+                    <tr>
+                        <td> Age </td>
+                        <td> <input type="number" name="Age" min="18" max="101" required /> </td>
+                    </tr>
+                    <tr>
+                        <td>Country</td>
+                        <td> <input type="text" name="Country" required /> </td>
+                    </tr>
+                    <tr>
+                        <td>City</td>
+                        <td> 
+                            <input type="checkbox" name="City" value="Ryazan" /> Ryazan 
+                            <input type="checkbox" name="City" value="Moscow" /> Moscow 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Photography </td>
+                        <td> <input type="file" name="pic" /> </td>
+                    </tr>
+                </table>
+                <hr />
+                <table>
+                    <tr>
+                       <td> Title </td>
+                       <td> <select size="8" name="Title">
+                                <optgroup label="Technologies"></optgroup>
+                                <option>Web Master</option>
+                                <option>Database Administrator</option>
+                                <option>Computer-aided design</option>
+                                <optgroup label="Finance"></optgroup>
+                                <option>Economic Planning</option>
+                                <option>Management accounting</option>
+                                <option>Budgeting and planning</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Salary</td>
+                        <td> <input type="range" /> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <textarea rows="20" cols="50" placeholder="Tell us about yourself..."></textarea>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Contact information</legend>
+                <table>
+                    <tr>
+                        <td>Site</td>
+                        <td><input type="url" name="Site" /></td>
+                    </tr>
+                    <tr>
+                        <td>E-mail</td>
+                        <td><input type="email" name="Email" required /></td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td><input type="tel" name="Phone" required /></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <p>Password <input type="password" required name="Password" /></p>
+            <hr />
+            <input type="submit" name="Отправить" formtarget="_blank"/>
+            <input type="reset" name="Сбросить" />
+        </form>
+    </body>
+</html>
