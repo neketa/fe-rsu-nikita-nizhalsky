@@ -1,57 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-       meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     </head>
     <body>
         <h1>Task 4</h1>
-        <form action="http://httpbin.org/" method="get" name="Personal data">
+        <form action="http://httpbin.org/get" method="get" name="Personal data">
             <fieldset>
                 <legend>Personal data</legend>
                 <table>
                     <tr> 
-                        <td> First name </td>
-                        <td> <input type="text" name="First name" required /> </td>
+                        <td><label for="firstName">First name</label></td>
+                        <td><input id="firstName" type="text" name="First name" required /> </td>
                     </tr>
                     <tr>
-                        <td>Middle name </td>
-                        <td><input type="text" name="Middle name"/></td>
+                        <td><label for="midName">Middle name</label> </td>
+                        <td><input id="midName" type="text" name="Middle name"/></td>
                     </tr>
                     <tr>
-                        <td>Surname</td>
-                        <td> <input type="text" name="Surname" required /> </td>
+                        <td><label for="surname">Surname</label></td>
+                        <td><input id="surname" type="text" name="Surname" required/></td>
                     </tr>
                     <tr>
                         <td rowspan="2">Sex</td>
-                        <td><input type="radio" name="Sex" value="male" checked />Male</td>
+                        <td><label><input type="radio" name="Sex" value="male" checked >Male</label></td>
                     </tr>
                     <tr>
-                        <td><input type="radio" name="Sex" value="female" />Female</td>
+                        <td><label><input type="radio" name="Sex" value="female" />Female</label></td>
                     </tr>
                     <tr>
-                        <td> Age </td>
-                        <td> <input type="number" name="Age" min="18" max="101" required /> </td>
+                        <td><label for="age">Age</label></td>
+                        <td><input id="age" type="number" name="Age" min="18" max="101" required /> </td>
                     </tr>
                     <tr>
-                        <td>Country</td>
-                        <td> <input type="text" name="Country" required /> </td>
+                        <td><label for="country">Country</label></td>
+                        <td><input id="country" type="text" name="Country" required /></td>
                     </tr>
                     <tr>
                         <td>City</td>
                         <td> 
-                            <input type="checkbox" name="City" value="Ryazan" /> Ryazan 
-                            <input type="checkbox" name="City" value="Moscow" /> Moscow 
+                            <label><input type="checkbox" name="City" value="Ryazan" /> Ryazan</label>
+                            <label><input type="checkbox" name="City" value="Moscow" /> Moscow</label>
                         </td>
                     </tr>
                     <tr>
-                        <td> Photography </td>
-                        <td> <input type="file" name="pic" /> </td>
+                        <td><label for="photo">Photography </td>
+                        <td><input id="photo" type="file" name="pic"/></td>
                     </tr>
                 </table>
-                <hr />
+                <hr>
                 <table>
                     <tr>
                        <td> Title </td>
@@ -82,21 +82,21 @@
                 <legend>Contact information</legend>
                 <table>
                     <tr>
-                        <td>Site</td>
-                        <td><input type="url" name="Site" /></td>
+                        <td><label for="site">Site</label></td>
+                        <td><input id="site" type="url" name="Site" /></td>
                     </tr>
                     <tr>
-                        <td>E-mail</td>
-                        <td><input type="email" name="Email" required /></td>
+                        <td><label for="email">E-mail</label></td>
+                        <td><input id="email" type="email" name="Email" required /></td>
                     </tr>
                     <tr>
-                        <td>Phone</td>
-                        <td><input type="tel" name="Phone" required /></td>
+                        <td><label for="phone">Phone</label></td>
+                        <td><input id="phone" type="tel" name="Phone" required /></td>
                     </tr>
                 </table>
             </fieldset>
-            <p>Password <input type="password" required name="Password" /></p>
-            <hr />
+            <p><label>Password <input type="password" required name="Password" /></label></p>
+            <hr>
             <input type="submit" name="Отправить" formtarget="_blank"/>
             <input type="reset" name="Сбросить" />
         </form>

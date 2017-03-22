@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Task 4</h1>
+    <form action="http://httpbin.org/post" method="post" name="Personal data">
+           <fieldset>
+                <legend>Personal data</legend>
+                <table>
+                    <tr> 
+                        <td><label for="firstName">First name</label></td>
+                        <td><input id="firstName" type="text" name="First name" required /> </td>
+                    </tr>
+                    <tr>
+                        <td><label for="midName">Middle name</label> </td>
+                        <td><input id="midName" type="text" name="Middle name"/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="surname">Surname</label></td>
+                        <td><input id="surname" type="text" name="Surname" required/></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Sex</td>
+                        <td><label><input type="radio" name="Sex" value="male" checked >Male</label></td>
+                    </tr>
+                    <tr>
+                        <td><label><input type="radio" name="Sex" value="female" />Female</label></td>
+                    </tr>
+                    <tr>
+                        <td><label for="age">Age</label></td>
+                        <td><input id="age" type="number" name="Age" min="18" max="101" required /> </td>
+                    </tr>
+                    <tr>
+                        <td><label for="country">Country</label></td>
+                        <td><input id="country" type="text" name="Country" required /></td>
+                    </tr>
+                    <tr>
+                        <td>City</td>
+                        <td> 
+                            <label><input type="checkbox" name="City" value="Ryazan" /> Ryazan</label>
+                            <label><input type="checkbox" name="City" value="Moscow" /> Moscow</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="photo">Photography </td>
+                        <td><input id="photo" type="file" name="pic"/></td>
+                    </tr>
+                </table>
+                <hr>
+                <table>
+                    <tr>
+                       <td> Title </td>
+                       <td> <select size="8" name="Title">
+                                <optgroup label="Technologies"></optgroup>
+                                <option>Web Master</option>
+                                <option>Database Administrator</option>
+                                <option>Computer-aided design</option>
+                                <optgroup label="Finance"></optgroup>
+                                <option>Economic Planning</option>
+                                <option>Management accounting</option>
+                                <option>Budgeting and planning</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Salary</td>
+                        <td> <input type="range" /> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <textarea rows="20" cols="50" placeholder="Tell us about yourself..."></textarea>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Contact information</legend>
+                <table>
+                    <tr>
+                        <td><label for="site">Site</label></td>
+                        <td><input id="site" type="url" name="Site" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">E-mail</label></td>
+                        <td><input id="email" type="email" name="Email" required /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone">Phone</label></td>
+                        <td><input id="phone" type="tel" name="Phone" required /></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <p><label>Password <input type="password" required name="Password" /></label></p>
+            <hr>
+            <input type="submit" name="Отправить" formtarget="_blank"/>
+            <input type="reset" name="Сбросить" />
+        </form>
+    </body>
+</html>
+        
