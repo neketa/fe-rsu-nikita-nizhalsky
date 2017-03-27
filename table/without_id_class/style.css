@@ -1,0 +1,22 @@
+table {
+   font-family: arial, sans-serif;
+   text-align: center;
+   background-color: #F2F6FA;
+}
+th {
+    padding: 15px;
+    color: #8190a0;
+    text-transform: uppercase;
+}
+td {
+    padding: 20px;
+}
+tr:nth-of-type(2n+1) {
+    background-color: #E3EAF3;
+}
+tr:nth-of-type(2n+1):hover {
+    background-color: #d2cece;
+}
+td:first-of-type {
+     text-transform: capitalize;
+}

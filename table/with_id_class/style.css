@@ -1,0 +1,24 @@
+table {
+   font-family: arial, sans-serif;
+   text-align: center;
+   background-color: #F2F6FA;
+}
+th {
+    padding: 15px;
+}
+td {
+    padding: 20px;
+}
+#thead {
+    color: #8190a0;
+    text-transform: uppercase;
+}
+.colored {
+    background-color: #E3EAF3;
+}
+.colored:hover {
+    background-color: #d2cece;
+}
+.name {
+     text-transform: capitalize;
+}
