@@ -4,7 +4,7 @@ table {
    background-color: #F2F6FA;
 }
 th {
-    padding: 15px;
+    padding: 10px;
     color: #8190a0;
     text-transform: uppercase;
 }
@@ -14,7 +14,7 @@ td {
 tr:nth-of-type(2n+1) {
     background-color: #E3EAF3;
 }
-tr:nth-of-type(2n+1):hover {
+table tr:not(:first-child):hover {
     background-color: #d2cece;
 }
 td:first-of-type {
