@@ -4,7 +4,7 @@ table {
    background-color: #E3EAF3;
 }
 th {
-    padding: 15px;
+    padding: 10px;
 }
 td {
     padding: 20px;
@@ -14,9 +14,9 @@ td {
     text-transform: uppercase;
 }
 .colored {
-    background-color: #E3EAF3;
+    background-color: #90daea;
 }
-.colored:hover {
+tr:nth-of-type(1n+2):hover {
     background-color: #d2cece;
 }
 .name {

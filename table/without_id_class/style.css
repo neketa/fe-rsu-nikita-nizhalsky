@@ -1,7 +1,7 @@
 table {
    font-family: arial, sans-serif;
    text-align: center;
-   background-color: #F2F6FA;
+   background-color: #E3EAF3;
 }
 th {
     padding: 10px;
@@ -12,9 +12,9 @@ td {
     padding: 20px;
 }
 tr:nth-of-type(2n+1) {
-    background-color: #E3EAF3;
+    background-color: #90daea;
 }
-table tr:not(:first-child):hover {
+tr:nth-of-type(1n+2):hover {
     background-color: #d2cece;
 }
 td:first-of-type {
