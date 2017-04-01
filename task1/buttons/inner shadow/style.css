@@ -1,0 +1,11 @@
+div {
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+    height: 200px;
+    width: 400px;
+}
+img { 
+  height: 200px;
+  width: 400px;
+  position: relative;
+  z-index: -2;
+}

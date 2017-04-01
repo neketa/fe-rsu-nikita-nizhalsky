@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            font-size: 25px;
+        }
+        .link {
+            text-decoration: none;
+            
+        }
+        .link:after {
+            content: " | ";
+            color: red;
+        }
+        .link:hover {
+            border-bottom: 3px solid blue;
+            transition:0.5s;
+        }
+        .link:hover:after {
+            opacity: 0;
+            transition:1s;
+        }
+        .link:last-child:after {
+            content: none;
+        }
+
+    </style>
+    <a class="link" href="none">Link 1</a>
+    <a class="link" href="none">Link 2</a>
+    <a class="link" href="none">Link 3</a>
+</body>
+</html>

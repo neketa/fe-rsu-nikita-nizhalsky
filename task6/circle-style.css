@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wall {
+    background-color: gray;
+    height: 300px;
+    width: 50px;
+    margin-left:50px;
+    margin-right: 50px;
+    display: inline-block;
+    position: relative; 
+}
+.ball {
+    background-color: black;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    animation: bounce 2s infinite linear;
+    margin-bottom: 100px;
+}
+@keyframes bounce {
+    0% { transform: translateX(-53px);}
+    50% { transform: translateX(50px);}
+    100% { transform: translateX(-53px);}
+}
