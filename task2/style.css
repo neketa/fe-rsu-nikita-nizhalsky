@@ -1,0 +1,22 @@
+.arrow-box {
+    border: 3px solid #C2E1F5;
+    width: 300px;
+    padding: 20px;
+    position: relative;
+    background-color: #88B7D5;
+    margin: 50px;
+    color: white;
+  }
+.arrow-box::after,
+.arrow-box::before {
+    content: ''; 
+    position: absolute;
+    left: calc(50% - 20px); top: -40px;
+    border: 20px solid transparent;
+    border-bottom: 20px solid #88B7D5;
+   }
+.arrow-box::before {
+    left: calc(50% - 25px); top: -50px;
+    border: 25px solid transparent;
+    border-bottom: 25px solid #C2E1F5;
+   }

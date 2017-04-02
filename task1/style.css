@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+.border {
+    width: 500px;
+    background-color: #A0DFD1;
+    margin: 50px;
+    border-radius: 10px;
+    border: #72B1A3 4px solid;
+}
+.content {
+    margin: 10px;
+    background-color: #EDECDE;
+    border: #72B1A3 2px solid;       
+}
+h1 {
+    background: #FFD000;
+    text-transform: capitalize;
+    position: relative;
+    font-weight: normal;
+    padding: 10px;
+    background: linear-gradient(to bottom, #FFD700, #FFC100);
+}
+.flag {
+    border: 20px solid transparent;
+    border-top: 20px solid #FFC100;
+    position: absolute;
+    margin-left: 10px;
+}
+p {
+    margin: 10px;
+    margin-top: 25px;
+    font-size: 18px;
+    color: #798796;
+}
