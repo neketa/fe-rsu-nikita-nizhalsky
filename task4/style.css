@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+.top-menu {
+    background-color: #35BAF6;
+    display: inline-block;
+    margin-left: 100px;
+    padding: 10px 30px 5px 30px;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    top: -100px;
+    transition: top 0.5s ease-out 0.5s;
+    list-style: none;
+    text-align: center;
+}
+
+input:checked + .top-menu { 
+    top: 0; 
+
+}
