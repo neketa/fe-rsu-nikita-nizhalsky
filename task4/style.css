@@ -20,5 +20,4 @@
 
 input:checked + .top-menu { 
     top: 0; 
-
 }

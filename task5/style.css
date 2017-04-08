@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.pannel {
+    display: flex;
+    position: relative;
+    background: url(bg.png);
+    background-size: cover;
+    justify-content: space-between;
+}
+.left {
+    display: flex;
+    justify-content: flex-start;
+}
+.right {
+    display: flex;
+    justify-content: flex-end;
+}
+.icon {
+    padding: 15px 20px 12px 20px;
+    background-size: auto;
+    background-position: center;
+    background: #3779b0;
+}
+.left .icon .note {
+    color: white;
+    padding: 3px 8px 3px 8px;
+    background: red; 
+    border-radius: 50%;
+}
+.icon + .icon {
+    margin-left: 3px;
+}
+.right .icon:last-child{
+    background: #2f2f35;
+}
+.right .icon:last-child .note {
+    color: white;
+    background: none;
+    padding: 10px 8px 10px 8px;
+    margin-right: 20px;
+}
+.right .icon:last-child:hover {
+    background: red;
+}
+.icon:hover{
+    background: red;
+}
