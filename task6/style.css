@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.float-list {
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.border {
+    width: 400px;
+    height: 445px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 15px;    
+}
+.grey {
+    background: url(grey.png) no-repeat center center;
+    background-size: cover;
+    height: 100%;
+}
+.green {
+    background: url(green.png) no-repeat center center;
+    background-size: cover;
+    height: 100%;
+}
+
+.tab-caption {
+    font-size: 41px;
+    margin-left: 233px;
+    margin-top: 10px;
+}
+button {
+    padding: 10px 35px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    background: #fff;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #777;
+    background-image: linear-gradient(180deg, #fff 0%, #f1f1f1 100%);
+}
+button:hover {
+    background: #89C740;
+    color: white;
+    cursor: pointer;
+}
+.overlay {
+    background-color: rgba(56, 54, 54, 0.8);
+    height: 100%;
+    opacity: 0;
+}
+.overlay-text {
+    padding: 180px 110px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.overlay-text p {
+    display: inline-block;
+}
+.txt-pt1 {
+    color: #fff;
+}
+.txt-pt2 {
+    color: #888;
+}
+.txt-pt3 {
+    color: #0f0;
+}
+.overlay:hover {
+    opacity: 1;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.clear-fix {
+    clear: both;
+}
+
+
+/*FLOAT*/
+
+.float-list li {
+    float: left;
+    margin: 15px;
+}
+.float-lbutton {
+    float: left;
+}
+.float-rbutton {
+    float: right;
+}
+
+/*INLINE-BLOCK*/
+
+.ib-list li {
+    display: inline-block;
+    margin: 15px;
+}
+.ib-list {
+    margin-left: 200px;
+}
+.ib-lbutton {
+   margin-right: 127px;
+}
+
+/*FLEX*/
+
+.flex-list {
+    display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	align-content: start;
+	width: 1400px;
+    margin-left: 200px;    
+}
+.flex-list li {
+    margin: 15px;
+}
+.flex-buttons {
+    display: flex;
+    justify-content: space-between;
+}
