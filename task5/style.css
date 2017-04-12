@@ -19,14 +19,14 @@
     justify-content: flex-end;
 }
 .icon {
-    padding: 15px 20px 12px 20px;
+    padding: 8px 20px;
     background-size: auto;
     background-position: center;
     background: #3779b0;
 }
 .left .icon .note {
     color: white;
-    padding: 3px 8px 3px 8px;
+    padding: 0 7px;
     background: red; 
     border-radius: 50%;
 }
@@ -39,7 +39,7 @@
 .right .icon:last-child .note {
     color: white;
     background: none;
-    padding: 10px 8px 10px 8px;
+    padding: 10px 8px;
     margin-right: 20px;
 }
 .right .icon:last-child:hover {

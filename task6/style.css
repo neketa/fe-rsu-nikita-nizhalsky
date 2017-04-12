@@ -3,12 +3,11 @@
     padding: 0;
 }
 .float-list {
-    margin-left: 200px;
-    margin-top: 40px;
+    margin: 20px 400px;
 }
 .border {
-    width: 400px;
-    height: 445px;
+    width: 280px;
+    height: 340px;
     border: 1px solid #ccc;
     border-radius: 4px;
     padding: 15px;    
@@ -26,16 +25,15 @@
 
 .tab-caption {
     font-size: 41px;
-    margin-left: 233px;
-    margin-top: 10px;
+    margin: 20px 400px;
 }
 button {
-    padding: 10px 35px;
+    padding: 8px 30px;
     border: 1px solid #aaa;
     border-radius: 3px;
     background: #fff;
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 15px;
     color: #777;
     background-image: linear-gradient(180deg, #fff 0%, #f1f1f1 100%);
 }
@@ -50,8 +48,8 @@ button:hover {
     opacity: 0;
 }
 .overlay-text {
-    padding: 180px 110px;
-    font-size: 24px;
+    padding: 140px 80px;
+    font-size: 18px;
     font-weight: bold;
 }
 .overlay-text p {
@@ -93,13 +91,13 @@ button:hover {
 
 .ib-list li {
     display: inline-block;
-    margin: 15px;
+    margin: 13px;
 }
 .ib-list {
-    margin-left: 200px;
+    margin: 20px 400px;
 }
 .ib-lbutton {
-   margin-right: 127px;
+   margin-right: 70px;
 }
 
 /*FLEX*/
@@ -110,8 +108,8 @@ button:hover {
 	align-items: flex-start;
 	flex-wrap: wrap;
 	align-content: start;
-	width: 1400px;
-    margin-left: 200px;    
+	width: 1300px;
+    margin: 20px 263px;    
 }
 .flex-list li {
     margin: 15px;
