@@ -25,7 +25,7 @@ ul {
     display: flex;
 }
 .left-side {
-    flex-basis: 20%;
+    flex-basis: 15%;
     display: flex;
 }
 
@@ -35,7 +35,7 @@ ul {
     display: flex;
     justify-content: flex-end;
 	align-items: center;
-    height: 60px;
+    height: 50px;
 }
 .sidebar-links {
     display: flex;
@@ -44,12 +44,12 @@ ul {
 .sidebar-links li:hover {
     background-color: #17A2FA;
     color: #fff;
-    cursor: poiter;
+    cursor: pointer;
 }
 .ts-item {
     font-size: 18px;
     line-height: 50px;
-    padding: 0 5px;
+    padding: 0;
 }
 .profile {
     display: inline-flex;
@@ -85,7 +85,7 @@ ul {
     margin-bottom: 5px;
 }
 .add-book-button {
-    margin: 60px;
+    margin: 40px 30px;
     text-transform: uppercase;
     font-size: 18px;
     background-color: #F17858;
@@ -93,6 +93,9 @@ ul {
     border-radius: 5px;
     color: #fff;
     padding: 20px;
+}
+.add-book-button:hover {
+    box-shadow: 0 0 10px 5px #CBF1F5;
 }
 .add-book-button i {
     margin-right: 5px;
@@ -102,8 +105,9 @@ ul {
     margin-bottom: 5px;
 }
 .nav-second-section li {
-    padding: 10px 60px;
+    padding: 12px 60px;
     text-transform: capitalize;
+    font-size: 14px;
 }
 .nav-second-section li:hover {
     background-color: #16A4FA;
@@ -115,7 +119,8 @@ ul {
 }
 .nav-third-section li {
     text-transform: capitalize;
-    padding: 5px 60px;
+    padding: 10px 60px;
+    font-size: 14px;
 }
 .nav-third-section li:hover {
     background-color: #13A3FB;
@@ -148,7 +153,8 @@ ul {
     text-transform: capitalize;
 }
 .nav-fourth-section li {
-    padding: 15px 60px;
+    padding: 25px 30px 30px 70px;
+    font-size: 14px;
 }
 .nav-fourth-section {
     margin-bottom: 0;
@@ -158,9 +164,9 @@ ul {
     content: "\f017 ";
     font-size: 20px;
     display: inline-block;
-    margin-left: -30px;
+    margin-left: -20px;
     margin-top: 10px;
-    width: 30px;
+    width: 20px;
 }
 .content {
     width: 100%;
@@ -189,8 +195,8 @@ ul {
     margin-left: 15px;
 }
 .menu-categories li {
-    margin: 10px;
-    padding: 5px;
+    margin: 20px;
+    padding: 5px 10px;
     text-transform: capitalize;
     color: #88A6BF;
     border-radius: 20px;
@@ -216,7 +222,7 @@ ul {
 }
 .search-icon {
     position: absolute;
-    top: 10px;
+    top: 20px;
     right: 20px;
     color: #88A6BF;
 }
@@ -234,8 +240,8 @@ ul {
 	align-content: start
 }
 .book {
-    height: 450px;
-    width: 250px;
+    height: 380px;
+    width: 230px;
     margin: 10px;
 }
 .book-cover1 {
@@ -245,7 +251,7 @@ ul {
     border-radius: 5px;
 }
 .book-name1 {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 10px;
     color: #2F3649;
 }
@@ -263,7 +269,7 @@ ul {
     border-radius: 5px;
 }
 .book-name2 {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 10px;
     color: #2F3649;
 }
@@ -281,7 +287,7 @@ ul {
     border-radius: 5px;
 }
 .book-name3 {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 10px;
     color: #2F3649;
 }
@@ -299,7 +305,7 @@ ul {
     border-radius: 5px;
 }
 .book-name4 {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 10px;
     color: #2F3649;
 }
@@ -317,7 +323,7 @@ ul {
     border-radius: 5px;
 }
 .book-name5 {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 10px;
     color: #2F3649;
 }
@@ -335,7 +341,7 @@ ul {
     border-radius: 5px;
 }
 .book-name6 {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 10px;
     color: #2F3649;
 }
@@ -353,7 +359,7 @@ ul {
     border-radius: 5px;
 }
 .book-name7 {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 10px;
     color: #2F3649;
 }
@@ -371,7 +377,7 @@ ul {
     border-radius: 5px;
 }
 .book-name8 {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 10px;
     color: #2F3649;
 }
@@ -389,7 +395,7 @@ ul {
     border-radius: 5px;
 }
 .book-name9 {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 10px;
     color: #2F3649;
 }
@@ -407,7 +413,7 @@ ul {
     border-radius: 5px;
 }
 .book-name10 {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 10px;
     color: #2F3649;
 }
