@@ -105,7 +105,11 @@ ul {
     margin-bottom: 5px;
 }
 .nav-second-section li {
+<<<<<<< HEAD
     padding: 12px 40px;
+=======
+    padding: 12px 35px;
+>>>>>>> cc41bea57c6c38ba393d82d258d558ae29722acf
     text-transform: capitalize;
     font-size: 14px;
 }
@@ -119,7 +123,11 @@ ul {
 }
 .nav-third-section li {
     text-transform: capitalize;
+<<<<<<< HEAD
     padding: 10px 40px;
+=======
+    padding: 10px 35px;
+>>>>>>> cc41bea57c6c38ba393d82d258d558ae29722acf
     font-size: 14px;
 }
 .nav-third-section li:hover {
