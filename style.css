@@ -75,7 +75,7 @@ ul {
     background-color: #191D29;
     width: 100%;
     list-style: none;
-    
+    height: 95vh;   
 }
 .nav-menu ul:nth-child(n+2) {
     color: #717B97;
@@ -109,6 +109,12 @@ ul {
     text-transform: capitalize;
     font-size: 14px;
 }
+
+.nav-second-section .active {
+    background-color: #16A4FA;
+    color: #fff;
+}
+
 .nav-second-section li:hover {
     background-color: #16A4FA;
     color: #fff;
@@ -149,13 +155,25 @@ ul {
 }
 .font-bold {
     font-family: 'Proxima Nova Bold', Arial, sans-serif;
-    display: inline-block;
     text-transform: capitalize;
 }
 .nav-fourth-section li {
-    padding: 25px 30px 30px 50px;
-    font-size: 14px;
+    display: flex;
+    padding: 30px 10px;
 }
+
+.notification {
+    display: flex;
+}
+
+.notification-content {
+    padding: 0 20px;
+}
+
+.notification-message {
+    margin-bottom: 10px;
+}
+
 .nav-fourth-section {
     margin-bottom: 0;
 }
@@ -163,10 +181,7 @@ ul {
     font-family: FontAwesome;
     content: "\f017 ";
     font-size: 20px;
-    display: inline-block;
-    margin-left: -20px;
-    margin-top: 10px;
-    width: 20px;
+    display: block;
 }
 .content {
     width: 100%;
@@ -200,6 +215,12 @@ ul {
     text-transform: capitalize;
     color: #88A6BF;
     border-radius: 20px;
+}
+
+.menu-categories .active {
+    background-color: #88A6BF;
+    color: #fff;
+    cursor: pointer;
 }
 .menu-categories li:hover {
     background-color: #88A6BF;
@@ -244,6 +265,14 @@ ul {
     width: 210px;
     margin: 10px;
 }
+
+.book-cover {
+    background-size: cover;
+    height: 80%;
+    border-radius: 5px;
+    background-color: #e4e7ee;
+}
+
 .book-cover1 {
     background: url(images/book-cover1.png) no-repeat center center;
     background-size: cover;
@@ -288,42 +317,6 @@ ul {
     height: 80%;
     border-radius: 5px;
 }
-.book-cover5 {
-    background: url(images/book-cover5.png) no-repeat center center;
-    background-size: cover;
-    height: 80%;
-    border-radius: 5px;
-}
-.book-cover6 {
-    background: url(images/book-cover6.png) no-repeat center center;
-    background-size: cover;
-    height: 80%;
-    border-radius: 5px;
-}
-.book-cover7 {
-    background: url(images/book-cover7.png) no-repeat center center;
-    background-size: cover;
-    height: 80%;
-    border-radius: 5px;
-}
-.book-cover8 {
-    background: url(images/book-cover8.png) no-repeat center center;
-    background-size: cover;
-    height: 80%;
-    border-radius: 5px;
-}
-.book-cover9 {
-    background: url(images/book-cover9.png) no-repeat center center;
-    background-size: cover;
-    height: 80%;
-    border-radius: 5px;
-}
-.book-cover10 {
-    background: url(images/book-cover10.png) no-repeat center center;
-    background-size: cover;
-    height: 80%;
-    border-radius: 5px;
-}
 .footer {
     background-color: #181E2C;
     display: flex;
@@ -341,4 +334,71 @@ ul {
 }
 .footer-help:hover, .footer-settings:hover {
     background-color: #17A2FA;
+}
+.add-book-window {
+    color: #2F3649;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 250px;
+    left: 700px;
+    background-color: #F17858;
+    border-radius: 10px;
+} 
+.add-book-capture {
+    font-size: 20px;
+    padding: 20px 10px;
+    border-bottom: 2px solid #E4E7EE; 
+}
+.add-book-name {
+    font-size: 20px;
+    text-align: center;
+}
+.add-book-field-name {
+    margin: 10px 10px 0;  
+}
+.add-book-field-input {
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #88A6BF;
+    padding: 5px;
+    width: 300px;
+    font-size: 16px;
+    background-color: #EEF1F8; 
+}
+
+.book-tag-form {
+    border-radius: 5px;
+    background-color: #EEF1F8;
+    display: inline-block;
+    margin: 10px; 
+}
+.book-tag {
+    margin: 3px;
+}
+.add-book-buttons {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #E4E7EE;
+}
+.add-book-buttons button {
+    margin: 10px;
+    font-size: 20px;
+    padding: 3px 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: #EEF1F8; 
+}
+.add-book-buttons button:hover {
+    background-color: #2F3649;
+    color: #fff; 
+}
+.history-block {
+    padding: 20px;
+}
+
+.history-block p {
+    display: inline-block;
+    padding: 0 10px;
+    min-width: 150px;
 }

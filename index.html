@@ -22,17 +22,15 @@
         <aside class="left-side">
             <nav class="nav-menu">
                 <div class="nav-first-section">
-                    <form action="#">
-                        <button class="add-book-button"><i class="fa fa-plus" aria-hidden="true"></i>add a book</button>
-                    </form>
+                    <button id="addBookButton" class="add-book-button"><i class="fa fa-plus" aria-hidden="true"></i>add a book</button>
                 </div>
-                <ul class="nav-second-section">
+                <ul id="mainNav" class="nav-second-section">
                     <li><i class="fa fa-book" aria-hidden="true"> </i>now reading</li>
-                    <li><i class="fa fa-globe" aria-hidden="true"> </i>browse</li>
+                    <li data-value="browse"><i class="fa fa-globe" aria-hidden="true"> </i>browse</li>
                     <li><i class="fa fa-shopping-cart" aria-hidden="true"> </i>buy books</li>
                     <li><i class="fa fa-star" aria-hidden="true"> </i>favourite books</li>
                     <li><i class="fa fa-list" aria-hidden="true"> </i>wishlist</li>
-                    <li><i class="fa fa-clock-o" aria-hidden="true"> </i>history</li>
+                    <li data-value="history"><i class="fa fa-clock-o" aria-hidden="true"> </i>history</li>
                 </ul>
                 <ul class="nav-third-section">
                     <li class="red-circle">must read titles</li>
@@ -40,16 +38,7 @@
                     <li class="green-circle">classic novels</li>
                     <li class="violet-circle">non fiction</li>
                 </ul>
-                <ul class="nav-fourth-section">
-                    <li>You added
-                        <p class="font-bold">fight club</p> by
-                        <p class="font-bold">chuck palahniuk</p> to your
-                        <p class="font-bold">must read titles</p><br><br>24 minutes ago</li>
-                    <li>You added
-                        <p class="font-bold">the trial</p> by
-                        <p class="font-bold">franz kafka</p> to your
-                        <p class="font-bold">must read titles</p><br><br>48 minutes ago</li>
-                </ul>
+                <ul id="notifications" class="nav-fourth-section"></ul>
             </nav>
         </aside>
         <ul class="content">
@@ -57,20 +46,18 @@
                 <h1>browse avaliable books</h1>
             </li>
             <li class="content-menu">
-                <ul class="menu-categories">
-                    <li>all books</li>
-                    <li>most recent</li>
-                    <li>most popular</li>
-                    <li>free books</li>
+                <ul id="navTabs" class="menu-categories">
+                    <li data-value="all">all books</li>
+                    <li data-value="recent">most recent</li>
+                    <li data-value="popular">most popular</li>
+                    <li data-value="free">free books</li>
                 </ul>
                 <div class="menu-search">
-                    <input id="searchInput" class="search-input" type="search" type="text" placeholder="Enter Keywords">
+                    <input id="searchBooksInput" class="search-input" type="search" type="text" placeholder="Enter Keywords">
                     <div class="search-icon"><i class="fa fa-search" aria-hidden="true"></i></div>
                 </div>
             </li>
-            <li class="main-content">
-                <ul id="bookList" class="content-books">
-                </ul>
+            <li id="mainContent" class="main-content">
             </li>
 
         </ul>
@@ -81,8 +68,15 @@
             <li class="footer-settings"><i class="fa fa-cog" aria-hidden="true"></i></li>
         </ul>
     </footer>
+    <div id="addBookPopup" class="add-book-window">
+    </div>
 
-    <script src="main.js"></script>
+    <script src="jquery-3.2.1.js"></script>
+    <script src="scripts/Event.js"></script>
+    <script src="scripts/Model.js"></script>
+    <script src="scripts/View.js"></script>
+    <script src="scripts/Controller.js"></script>
+    <script src="scripts/App.js"></script>
 </body>
 
 </html>
