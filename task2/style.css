@@ -1,0 +1,22 @@
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    padding: 30px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 25px;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #507299;
+    color: #fff;
+}
+
+div.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    margin: 25px;
+}
